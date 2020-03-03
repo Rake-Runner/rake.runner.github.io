@@ -1,9 +1,0 @@
-font-family: 'Exo 2', ;
-font-family: 'Comfortaa', ;
-font-family: 'Poiret One', ;
-font-family: 'Montserrat Alternates', ;
-font-family: 'Philosopher', ;
-font-family: 'Jura', ;
-
-
-<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,700|Exo+2:400,500,700|Jura:300,400,500,700|Montserrat+Alternates:400,500,700,700i|Philosopher:400,400i,700,700i|Poiret+One&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
