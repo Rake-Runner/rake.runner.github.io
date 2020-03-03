@@ -1,0 +1,179 @@
+/* ||||||||||||||||||||||||| */
+    /* header */
+/* ||||||||||||||||||||||||| */
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'JuraRegular', sans-serif;
+    
+}
+.header{
+    background-color: #111; 
+    padding: 10px 10px 10px 170px;
+    /* margin-left: 160px; */
+    position: fixed;
+    width: 100%;
+}
+.header a{
+    text-decoration: none;
+    color: blue;
+    letter-spacing: 1px;
+    margin-left: 25px;
+}
+.header a:hover{
+    color: darkmagenta;
+}
+.ava{
+    max-width: 150px;
+    border-radius: 50%;
+}
+.logo{
+    /* display: flex;
+    justify-self: flex-end !important; */
+    float: right;
+}
+
+/* ||||||||||||||||||||||||| */
+    /* fixed sidebar */
+/* ||||||||||||||||||||||||| */
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    /* color: blue; */
+    color: darkmagenta;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 10px 10px;
+    color: lightgray;
+    /* height: 39.2em; */
+    height: 100%;
+    /* background: url(../img/def.jpg) repeat-y; */
+    /* background: url(../img/def4.jpg) no-repeat fixed center; */
+    background: url(../img/def4.jpg) no-repeat fixed center;
+  
+}
+.reg_form {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 10px 10px;
+    color: lightgray;
+    height: 100vh;
+    background: url(../img/def4.jpg) no-repeat fixed center;
+}
+.reg_form span{
+    color: grey;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* ||||||||||||||||||||||||| */
+    /* POST */
+/* ||||||||||||||||||||||||| */
+.posts{
+    padding-top: 36px;
+}
+.post{
+    padding: 10px;
+    margin: 40px 10px 10px 10px;
+    color: lightgray;
+    background-color: black;
+    
+}
+.basis, .nadstroika{
+    max-width: 300px;
+    text-align: center;
+}
+.basis h2, .nadstroika h2{
+    text-align: center;
+    color: blue;
+    margin: 10px;
+}
+.list{
+    display: flex;
+    flex-direction: column;    
+}
+.list a{
+    text-decoration: none;
+    color: #818181;
+    cursor: pointer;
+    padding: 10px;
+}
+.list a:hover{
+    color: red;
+}
+.nexus{
+    display: flex;
+    background-color: #000;
+    padding: 10px 10px;
+    
+}
+.b_n_window{
+    background: url(../img/def2.jpg) 
+    repeat-y;
+    width: 100%;
+}
+.main_prog {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    /* padding: 10px 10px; */
+    color: lightgray;
+    height: 100vh;
+    background-color: #111;
+    padding-top: 36px;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    margin-top: 25px;
+    font-family: 'JuraRegular', sans-serif;
+    
+}
+.login_form input{
+    max-width: 140px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(83, 83, 238);
+    border: 2px solid rgb(83, 83, 238);
+    border-radius: 4px;
+}
+#inputenter{
+    color: grey;
+    background-color: transparent;
+    border: none;
+}
+#inputenter:hover{
+    color: blue;
+    font-family: 'JuraRegular', sans-serif;
+}
+
+/* COMPUTER SCIENCE */
