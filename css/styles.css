@@ -22,14 +22,17 @@ justify-content: space-between;
     /* filter: blur(5px); */
 }
 .wrapper{
+    background: url(../img/4.jpg) center/cover fixed;
     height: 86vh;
     background-color: black;
-    position: absolute;
+    
     filter: brightness(0.2);
 }
-.post{
+.owl-carousel{
     position: relative;
-    z-index: 10;
+    top: -86vh;
+}
+.post{
     color: white;
     padding: 10px;
 }
