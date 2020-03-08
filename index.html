@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <title>Marx</title>
 </head>
 <body>
@@ -18,12 +20,23 @@
     </header>
     <section class="main">
         <div class="wrapper">
-            <div class="post">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Et, facere. Omnis quod tempore deserunt perspiciatis 
-                nesciunt hic vel est similique et, quibusdam minima 
-                veniam nisi tempora eum sit impedit explicabo.</p>
+            <div class="owl-carousel owl-theme">
+                <div class="post">
+                    <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                </div>
+                <div class="post">
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                </div>
+                
+                
             </div>
+            
         </div>
         
     </section>
@@ -32,5 +45,18 @@
         <a href="#">#</a>
         <a href="#">Next</a>
     </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            items:1,
+            lazyLoad:true,
+            loop:true,
+            margin:10
+        });
+    </script>
+    
 </body>
 </html>
