@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
@@ -16,18 +15,24 @@
 </head>
 <body>
     <header class="header">
-        <a href="#">Menu</a>
-        <a href="#">Exit</a>
+        <a href="#" id="menu_link">Menu</a>
+        <a href="#" id="About_author">About author</a>
     </header>
+
     <section class="main">
-        <div class="wrapper"> </div>
-        <div class="owl-carousel owl-theme owl_slider">
-            <div class="post">
-                <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
-                accusantium exercitationem voluptate odit non voluptas facere 
-                est consequatur inventore, eaque nesciunt?</p>
-                <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <div id="menu_item">
+            <ol type="I" class="menu_list">
+                <li class="menu_list_items"><a href="#" id="why">Для чего это всё?</a></li>
+                <li class="menu_list_items"><a href="#" id="ch1">1-ая глава</a></li>
+                <li class="menu_list_items"><a href="#" id="ch2">2-ая глава</a></li>
+                <li class="menu_list_items"><a href="#" id="app1">App#1</a></li>
+            </ol> 
+        </div>
+        <div class="wrapper"></div>
+        <div class="one" id="chapter_why">
+            <div class="owl-carousel owl-theme owl_slider">
+                <div class="post">
+                    <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
                     accusantium exercitationem voluptate odit non voluptas facere 
                     est consequatur inventore, eaque nesciunt?</p>
@@ -39,29 +44,73 @@
                             Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
                             accusantium exercitationem voluptate odit non voluptas facere 
                             est consequatur inventore, eaque nesciunt?</p>
+                            <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                                accusantium exercitationem voluptate odit non voluptas facere 
+                                est consequatur inventore, eaque nesciunt?</p>
+                </div>
+                <div class="post">
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                </div>
+                <div class="post">
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                </div>
             </div>
-            <div class="post">
-                <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
-                accusantium exercitationem voluptate odit non voluptas facere 
-                est consequatur inventore, eaque nesciunt?</p>
-            </div>
-            <div class="post">
-                <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
-                accusantium exercitationem voluptate odit non voluptas facere 
-                est consequatur inventore, eaque nesciunt?</p>
+    
+        </div>
+        <div class="two" id="chapter_one">
+            <div class="owl-carousel owl-theme owl_slider">
+                <div class="post">
+                    <h1>CHAPTER 1</h1>
+                    <p>asdfhkjdshflkjasdhflkja
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                    <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                    <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                    <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                </div>
+                <div class="post">
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                </div>
+                <div class="post">
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Earum, omnis dolores est sint fugiat explicabo quae? Ipsum cum 
+                    accusantium exercitationem voluptate odit non voluptas facere 
+                    est consequatur inventore, eaque nesciunt?</p>
+                </div>
             </div>
         </div>
+        
     </section>
 
     <footer class="footer">
-        <a href="#">Back</a>
-        <a href="#">#</a>
+        <a href="#" id="back_menu">Back</a>
+        <!-- <a href="#">#</a> -->
         <a href="#">Next</a>
     </footer>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/js.js"></script>
     <script src="owlcarousel/jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script>
